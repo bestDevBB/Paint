@@ -57,7 +57,6 @@ function handleColorClick(event) {
 
 // 브러쉬 굵기
 function handleRangeChange(event) {
-    // console.log(event.target.value);
     const size = event.target.value;
     ctx.lineWidth = size;
 };
